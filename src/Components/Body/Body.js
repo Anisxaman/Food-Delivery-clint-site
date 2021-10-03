@@ -1,6 +1,7 @@
 import "./Body.css"
 import Rating from 'react-rating';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 
 const Body = (props) => {
@@ -14,7 +15,7 @@ const Body = (props) => {
 
         <div className="col-lg-4">
         <div class="card mb-3 " style={{maxWidth: "540px",height:"380px"}}>
-            <div class="row g-0  hover">
+            <div class="row g-0  hover rounded-3">
                 
                 <div class="col-md-5">
                 <img src={img} style={{height:"380px"}} className="img-fluid rounded-start" alt="not found"/>
@@ -43,6 +44,9 @@ const Body = (props) => {
                        // fullSymbol="fas fa-star fa-2x"
                        fullSymbol="fas fa-star"
                         readonly/>
+
+                <button type="button" class="btn btn-danger ms-3"><FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>Add Cart</button>
+
                    </div>
                    
                 </div>
