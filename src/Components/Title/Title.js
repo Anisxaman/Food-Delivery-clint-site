@@ -7,13 +7,13 @@ import logo from "../../Images/7.jpg"
 const Title = () => {
     return (
         <>
-        <div className="mb-5 mt-3">
+        <div className="mb-5 mt-5" >
                    
                 
-                    <div className="d-flex d-flex align-items-baseline justify-content-around">
+                    <div className="d-flex d-flex align-items-baseline justify-content-around "style={{marginTop:"150px"}}>
                                <div>
                                <div className="header ">
-                                        <h1 className="Title " > <span className='thumb'>Learn </span> Learn Without Limits</h1>
+                                        <h1 className="Title " > <span className='thumb'>Learn </span>  Without Limits</h1>
                                     </div>
                                     <div>
                                         <p className="p-2 text-center"><small>Build skills with courses, certificates, and degrees online from world-class universities and companies  </small></p>

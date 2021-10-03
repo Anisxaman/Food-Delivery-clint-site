@@ -2,10 +2,14 @@ import "./PageNotFound.css"
 
 import React from 'react';
 
+import gif from "../Images/404.gif"
+
 const PageNotFound = () => {
     return (
         <div>
-                  <h1>This is new 404</h1>
+            <img  height="900px"  src={gif} alt="" />
+
+                 
 
         </div>
     );

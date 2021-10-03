@@ -2,6 +2,8 @@ import "./Header.css"
 
 import React from 'react';
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
 
@@ -15,9 +17,9 @@ const Header = () => {
         < >
         
 
-<nav className="navbar navbar-expand-lg navbar-dark primary ">
+<nav className="navbar navbar-expand-lg navbar-dark primary fixed-top ">
   <div className="container-fluid">
-    <a className="navbar-brand ms-5" href="/shop"><span className="focusName text-danger fw-bolder">M</span>y-demy</a>
+    <a className="navbar-brand ms-5" style={{fontSize:"25px"}} href="/shop"><span className="focusName text-danger fw-bolder">M</span>y-demy</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -37,8 +39,8 @@ const Header = () => {
           <NavLink  activeStyle={activeStyle} className="nav-link" to="/student">For Student</NavLink>
         </li>
         <li className="nav-item">
-          {/* <a className="nav-link" href="/shop">For Student</a> */}
-          <button type="button" class="btn btn-success me-2">Join for free </button>
+        
+          <button  type="button"   class="btn btn-success me-2"><FontAwesomeIcon className="text-dark me-2" icon={faShoppingCart}></FontAwesomeIcon>Join for free </button>
 
         </li>
      

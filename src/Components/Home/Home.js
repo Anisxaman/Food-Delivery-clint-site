@@ -18,12 +18,12 @@ const Home = () => {
        
     }, [])
 
-
+console.log(data);
     return (
         <>
            <Title></Title>
 
-            <div className="row">
+            <div className="row cart">
             {
                 data.map(item=><Body
                 key={item.id}
