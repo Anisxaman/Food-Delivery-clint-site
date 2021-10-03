@@ -1,14 +1,60 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import './App.css';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import About from './Components/About/About';
+import Body from './Components/Body/Body';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
+import Home from './Components/Home/Home';
+import Services from './Components/Services/Services';
+import StudentService from './Components/StudentService/StudentService';
+import PageNotFound from './PageNotFound/PageNotFound';
+
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
+// import logo from "./Images/1.jpg"
 
 function App() {
+  
   return (
-    <div className="App">
+    <div className="">
+      
+          <BrowserRouter>
+              {/* <Body></Body> */}
+              <Header></Header>
 
-      <h1>This is new react app</h1>
+          <Switch>
+          <Route  exact path="/">
+                    <Home></Home>
+
+          </Route>
+            <Route path="/home">
+                  <Home></Home>
+            </Route>
+            <Route path="/services">
+                    <Services></Services>
+            </Route>
+            <Route path="/about">
+                    <About></About>
+            </Route>
+            <Route path="/student">
+                    <StudentService></StudentService>
+            </Route>
+            <Route path="*">
+                      <PageNotFound></PageNotFound>
+            </Route>
+          </Switch>
+
+          
+          <Footer></Footer>
+          </BrowserRouter>
+
+
+      
+      
+
+
 
 
 

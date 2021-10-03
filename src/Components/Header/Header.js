@@ -1,0 +1,95 @@
+import "./Header.css"
+
+import React from 'react';
+import { NavLink } from "react-router-dom";
+
+const Header = () => {
+
+    const activeStyle = {
+        fontWeight: "bold",
+        color: "tomato"
+        
+    }
+    return (
+      
+        < >
+        
+
+<nav className="navbar navbar-expand-lg navbar-dark primary ">
+  <div className="container-fluid">
+    <a className="navbar-brand ms-5" href="/shop"><span className="focusName text-danger fw-bolder">M</span>y-demy</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <NavLink activeStyle={activeStyle} className="nav-link active" aria-current="page" to="/home">Home</NavLink>
+        </li>
+        <li className="nav-item">
+         
+          <NavLink activeStyle={activeStyle} className="nav-link" to="/services" >Services</NavLink>
+        </li>
+        <li className="nav-item">
+                   <NavLink activeStyle={activeStyle}  className="nav-link" to="/about">About us</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink  activeStyle={activeStyle} className="nav-link" to="/student">For Student</NavLink>
+        </li>
+        <li className="nav-item">
+          {/* <a className="nav-link" href="/shop">For Student</a> */}
+          <button type="button" class="btn btn-success me-2">Join for free </button>
+
+        </li>
+     
+        {/* <li className="nav-item">
+          <a className="nav-link disabled" href="/shop">Disabled</a>
+        </li> */}
+      </ul>
+      <form className="d-flex">
+        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button className="btn btn-danger" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+{/* -----------------------nav bar end------------------------------------------------ */}
+
+
+{/* 
+<div className="header">
+    <h1 className="Title"> <span className='thumb'>Learn </span> Learn Without Limits</h1>
+</div>
+<div>
+    <p className="p-2 text-center"><small>Build skills with courses, certificates, and degrees online from world-class universities and companies  </small></p>
+</div>
+<div className="text-center">
+<button type="button" style={{borderRadius:"10px"}} class="btn btn-danger me-3 fs-3 px-4">Join for Free</button>
+<button type="button" style={{borderRadius:"10px"}}  class="btn btn-secondary fs-3 px-4">Try for Business</button>
+
+
+</div>
+<hr /> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </>
+    );
+};
+
+export default Header;
