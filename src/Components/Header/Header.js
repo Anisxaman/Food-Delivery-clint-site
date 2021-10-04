@@ -3,7 +3,7 @@ import "./Header.css"
 import React from 'react';
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { faBook, faBookOpen, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
 
@@ -15,11 +15,10 @@ const Header = () => {
     return (
       
         < >
-        
-
 <nav className="navbar navbar-expand-lg navbar-dark primary fixed-top ">
   <div className="container-fluid">
-    <a className="navbar-brand ms-5" style={{fontSize:"25px"}} href="/shop"><span className="focusName text-danger fw-bolder">M</span>y-demy</a>
+    <a className="navbar-brand ms-5" style={{fontSize:"25px"}} href="/shop"><span className="focusName text-danger fw-bolder">M</span>y-demy <FontAwesomeIcon className="ms-2" style={{fontSize:"40px"}} icon={faBookOpen}></FontAwesomeIcon>
+</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

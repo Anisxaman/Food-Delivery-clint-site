@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import './App.css';
 import About from './Components/About/About';
@@ -10,10 +10,7 @@ import Services from './Components/Services/Services';
 import StudentService from './Components/StudentService/StudentService';
 import PageNotFound from './PageNotFound/PageNotFound';
 
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
-// import logo from "./Images/1.jpg"
+
 
 function App() {
   

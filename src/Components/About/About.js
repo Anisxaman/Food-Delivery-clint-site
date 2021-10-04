@@ -6,6 +6,9 @@ import two from "../../Images/author/2.jpg"
 import three from "../../Images/author/3.jpg"
 import four from "../../Images/author/4.jpg"
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
     return (
@@ -14,15 +17,18 @@ const About = () => {
 <div className="row" >
 
 <div className="col-6"> 
-            <div class="card card-fluid author py-5" style={{width: "25rem" ,height:"600px"}}>
+            <div class="card card-fluid author py-5" style={{width: "28rem" ,height:"600px"}}>
          <div className="d-flex">
-         <img  src={one} className="card-img-top " alt="..."/>
+         <img style={{width: "18rem" }} src={one} className="card-img-top " alt="..."/>
             <div class="card-body">
             <h5 class="card-title">CEO</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-            <Link to="/1"><button type="button" class="btn btn-primary">Go</button>
-</Link>
+           <div className="d-flex align-items-center">
+                <Link to="/1"><button type="button" class="btn btn-primary me-3">Go</button></Link>
+                <FontAwesomeIcon className="text-danger fs-1" icon={faEnvelope}></FontAwesomeIcon>
+           </div>
+
             </div>
          </div>
             </div>
@@ -45,8 +51,11 @@ const About = () => {
             <h5 class="card-title">Managing Director</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-            <Link to="/2"><button type="button" class="btn btn-primary">Go</button>
-</Link>
+            <div className="d-flex align-items-center">
+                <Link to="/1"><button type="button" class="btn btn-primary me-3">Go</button></Link>
+                <FontAwesomeIcon className="text-danger fs-1" icon={faEnvelope}></FontAwesomeIcon>
+           </div>
+
             </div>
             <img  src={four} className="card-img-top " alt="..."/>
            </div>
@@ -58,15 +67,17 @@ const About = () => {
 <div className="row">
 
 <div className="col-6">
-<div class="card author "  style={{width: "25rem"}}>
-           <div className="d-flex">
-           <img  src={two} className="card-img-top " alt="..."/>
+<div class="card author "  style={{width: "28rem"}}>
+           <div  className="d-flex">
+           <img style={{width: "18rem"}} src={two} className="card-img-top " alt="..."/>
             <div class="card-body">
                 <h5 class="card-title">Treserour</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                <Link to="/3"><button type="button" class="btn btn-primary">Go</button>
-</Link>
+                <div className="d-flex align-items-center">
+                <Link to="/1"><button type="button" class="btn btn-primary me-3">Go</button></Link>
+                <FontAwesomeIcon className="text-danger fs-1" icon={faEnvelope}></FontAwesomeIcon>
+           </div>
             </div>
            </div>
             </div>
@@ -88,8 +99,10 @@ const About = () => {
 <h5 class="card-title">Chairman</h5>
 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-<Link to="/4"><button type="button" class="btn btn-primary">Go</button>
-</Link>
+<div className="d-flex align-items-center">
+                <Link to="/1"><button type="button" class="btn btn-primary me-3">Go</button></Link>
+                <FontAwesomeIcon className="text-danger fs-1" icon={faEnvelope}></FontAwesomeIcon>
+           </div>
 </div>
 <img  src={three} className="card-img-top" alt="..."/>
 

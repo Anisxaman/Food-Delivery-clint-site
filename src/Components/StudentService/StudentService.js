@@ -7,8 +7,8 @@ const StudentService = () => {
         <>
        <div className="container">
        <div className="text-center" style={{marginTop:"250px"}}>
-                    <h1>Are you a Student??</h1>
-                    <h3>Please Registration</h3>
+                    <h1 className="text-primary fs-1 fw-bold">Are you a Student??</h1>
+                    <h3 className="text-danger">Please Registration</h3>
 
         </div>
 

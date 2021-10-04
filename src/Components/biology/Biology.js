@@ -12,8 +12,8 @@ const Math = (props) => {
     return (
         <>
   <div class="col-3">
-    <div class="card hover" style={{height:"420px"}}>
-      <img src={img} class="card-img-top" alt="..."/>
+    <div class="card hover" style={{height:"420px",borderRadius:"30px"}}>
+      <img height="200" src={img} class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">{name}</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>

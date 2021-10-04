@@ -67,7 +67,7 @@ console.log(BioData)
             </div>
 
             <div>
-                <h1 className="border p-4 bg-Secondary fw-bolder mt-5 " style={{backgroundColor:"#0000"}}>Biology Course <FontAwesomeIcon icon ={faArrowAltCircleRight}></FontAwesomeIcon>
+                <h1 className="border p-4 bg-Secondary fw-bolder mt-5 ">Biology Course <FontAwesomeIcon icon ={faArrowAltCircleRight}></FontAwesomeIcon>
 </h1>
                 <div>
                 <div class="row row-cols-1 row-cols-md-4 g-4">

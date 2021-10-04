@@ -13,8 +13,8 @@ const Body = (props) => {
 
 
 
-        <div className="col-lg-4">
-        <div class="card mb-3 " style={{maxWidth: "540px",height:"380px"}}>
+        <div className="col-lg-4 ">
+        <div class="card mb-3  " style={{maxWidth: "540px",height:"380px",borderRadius:"30px"}}>
             <div class="row g-0  hover rounded-3">
                 
                 <div class="col-md-5">
