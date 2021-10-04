@@ -1,4 +1,4 @@
-# My-Demy
+# My-Demy Educational Website
 
 
 
@@ -8,5 +8,12 @@
 
 . Added routing
 
+. added two functional button
 
+## Live site:
+
+[Anishuzzaman][author]
+[author][https://www.facebook.com/anishuzzaman]
+
+[site link]: https://my-demy.netlify.app/
 
