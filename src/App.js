@@ -37,6 +37,9 @@ function App() {
             <Route path="/student">
                     <StudentService></StudentService>
             </Route>
+            <Route path="/student">
+                    <StudentService></StudentService>
+            </Route>
             <Route path="*">
                       <PageNotFound></PageNotFound>
             </Route>

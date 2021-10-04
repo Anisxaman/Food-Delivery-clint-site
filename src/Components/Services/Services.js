@@ -7,15 +7,38 @@ import Math from "../Math/Math";
 import Biology from "../biology/Biology";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowAltCircleRight } from "@fortawesome/free-regular-svg-icons";
+import { Link } from "react-router-dom";
+import { useHistory } from "react-router";
+import Body from "../Body/Body";
+
 
 
 const Services = () => {
 
     const [Mathdata, setMathdata] = useState([]);
     const [BioData, setBioData] = useState([]);
+    const [data, setdata] = useState([]);
 
 
+    useEffect(() => {
 
+        fetch("./FakeData.JSON")
+        .then(res=>res.json())
+        .then(data=>setdata(data))
+
+       
+    }, [])
+
+
+// const useClick(){
+//     useEffect(() => {
+//         fetch("./FakeMath.JSON")
+//         .then(res=>res.json())
+//         .then(data=>setMathdata(data))
+       
+//     }, [])
+
+// }
  
 
     useEffect(() => {
@@ -35,23 +58,84 @@ const Services = () => {
 
 
 
-console.log(Mathdata)
-console.log(BioData)
+// console.log(Mathdata)
+// console.log(BioData)
 
+// console.log(data)
 
+const handler=()=>{
+    window.location.reload();
 
+}
+// window.location.reload();
+// const history=useHistory();
+
+// const element=()=>{
+//     history.push("/services");
+// }
+// {/* <button type="button" class="btn btn-secondary"><FontAwesomeIcon icon ={faArrowAltCircleRight}></FontAwesomeIcon></button> */}
 
 
     return (
         <div className="bg-info" style={{marginTop:"130px"}}>
+                 <button type="button" onClick={handler} className="btn btn-secondary mt-5 mb-5"> <Link to={"/services"}> <h1 className="border  fw-bolder text-dark">WebDevelopment Course<button type="button" class="btn btn-secondary"><FontAwesomeIcon icon ={faArrowAltCircleRight}></FontAwesomeIcon></button>
+ 
+               </h1></Link></button>
+
+
             <div>
-                <h1 className="border p-4 fw-bolder">Mathemitcs Course   <FontAwesomeIcon icon ={faArrowAltCircleRight}></FontAwesomeIcon>
-</h1>
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                {
+                    data.map(item=><Body
+                        key={item.id}
+                        item={item}  
+                    
+                    
+                    
+                    ></Body>)
+                }
+
+            </div>
+            </div>
+
+
+
+
+            {/* <div>
+            <button type="button" onClick={handler} class="btn btn-secondary"> <Link to={"/services"}> <h1 className="border  fw-bolder text-dark">Mathemitcs Course<button type="button" class="btn btn-secondary"><FontAwesomeIcon icon ={faArrowAltCircleRight}></FontAwesomeIcon></button>
+ 
+ </h1></Link></button>
+ 
             <div>
                 
                 <div class="row row-cols-1 row-cols-md-4 g-4">
 
                 {
+                    
+                    Mathdata.map(item=><Math
+                    key={item.id}
+                    math={item}
+                    
+                    
+                    
+                    ></Math>)
+                }
+                </div>
+            </div>
+
+
+            </div> */}
+
+<div>
+<h1 className="border p-4 bg-Secondary fw-bolder mt-5 p-5 ">Mathematics Course <FontAwesomeIcon icon ={faArrowAltCircleRight}></FontAwesomeIcon>
+</h1>
+ 
+            <div>
+                
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+
+                {
+                    
                     Mathdata.map(item=><Math
                     key={item.id}
                     math={item}
@@ -67,7 +151,7 @@ console.log(BioData)
             </div>
 
             <div>
-                <h1 className="border p-4 bg-Secondary fw-bolder mt-5 ">Biology Course <FontAwesomeIcon icon ={faArrowAltCircleRight}></FontAwesomeIcon>
+                <h1 className="border p-4 bg-Secondary fw-bolder mt-5 p-5">Biology Course <FontAwesomeIcon icon ={faArrowAltCircleRight}></FontAwesomeIcon>
 </h1>
                 <div>
                 <div class="row row-cols-1 row-cols-md-4 g-4">

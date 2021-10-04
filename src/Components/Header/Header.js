@@ -1,9 +1,11 @@
 import "./Header.css"
+import "animate.css"
+
 
 import React from 'react';
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBook, faBookOpen, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import {  faBookOpen, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
 
@@ -55,38 +57,6 @@ const Header = () => {
   </div>
 </nav>
 {/* -----------------------nav bar end------------------------------------------------ */}
-
-
-{/* 
-<div className="header">
-    <h1 className="Title"> <span className='thumb'>Learn </span> Learn Without Limits</h1>
-</div>
-<div>
-    <p className="p-2 text-center"><small>Build skills with courses, certificates, and degrees online from world-class universities and companies  </small></p>
-</div>
-<div className="text-center">
-<button type="button" style={{borderRadius:"10px"}} class="btn btn-danger me-3 fs-3 px-4">Join for Free</button>
-<button type="button" style={{borderRadius:"10px"}}  class="btn btn-secondary fs-3 px-4">Try for Business</button>
-
-
-</div>
-<hr /> */}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         </>

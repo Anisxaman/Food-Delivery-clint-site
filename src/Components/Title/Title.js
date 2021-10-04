@@ -1,4 +1,5 @@
 import "./Title.css"
+import "animate.css"
 
 import React from 'react';
 
@@ -21,7 +22,8 @@ const Title = () => {
                     <div className="d-flex d-flex align-items-baseline justify-content-around "style={{marginTop:"150px"}}>
                                <div>
                                <div className="header ">
-                                        <h1 className="Title " > <span className='thumb'>Learn </span>  Without Limits</h1>
+                               {/* <h1 class="animate__animated animate__bounce">An animated element</h1> */}
+                                        <h1  className="Title animate__animated animate__heartBeat" > <span className="thumb">Learn </span>  Without Limits</h1>
                                     </div>
                                     <div>
                                         <p className="p-2 text-center"><small>Build skills with courses, certificates, and degrees online from world-class universities and companies  </small></p>

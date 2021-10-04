@@ -4,6 +4,10 @@ import Body from "../Body/Body";
 import Topics from "../Topics/Topics";
 import Instructor from "../Instructor/Instructor";
 import Title from "../Title/Title";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowAltCircleRight, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { useHistory } from "react-router";
+
 
 const Home = () => {
     const [data, setdata] = useState([]);
@@ -18,16 +22,26 @@ const Home = () => {
        
     }, [])
 
+    const history=useHistory();
+
+
+    const useHandler=()=>{
+        history.push("/services/mathcourse");
+    }
+
 console.log(data);
     //----------------------- main home component where contain three child component-------------------
-
+const getData=data.slice(0,4);
     return (
         <>
            <Title></Title>
 
             <div className="row cart">
+                <div className="fs-1 border rounded-3 fw-bold p-5">Web development Course <button onClick={useHandler} type="button" class="btn btn-secondary">Show Details <FontAwesomeIcon icon={faArrowAltCircleRight}></FontAwesomeIcon></button>
+                
+    </div>
             {
-                data.map(item=><Body
+                getData.map(item=><Body
                 key={item.id}
                 item={item}                
                 >
