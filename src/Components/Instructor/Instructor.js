@@ -8,8 +8,8 @@ import React from 'react';
 const Instructor = () => {
     return (
         <div className="mb-5">
-            <div className="text-center">
-                <h2> MEET THE TEACHERS</h2>
+            <div className="text-center fs-3">
+                <h2 className="text-success fw-bold"> MEET THE TEACHERS</h2>
                 <h5>WE HAVE THE HIGHLY QUALIFIED TEACHERS FOR WORLD CLASS TEACHING</h5>
             </div>
 {/* 

@@ -40,7 +40,7 @@ const Header = () => {
         </li>
         <li className="nav-item">
         
-          <button  type="button"   class="btn btn-success me-2"><FontAwesomeIcon className="text-dark me-2" icon={faShoppingCart}></FontAwesomeIcon>Join for free </button>
+          <button  type="button"   class="btn btn-success me-2"><FontAwesomeIcon className="text-dark me-2" icon={faShoppingCart}></FontAwesomeIcon>Cart </button>
 
         </li>
      
