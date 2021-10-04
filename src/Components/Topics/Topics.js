@@ -13,11 +13,11 @@ const Topics = () => {
                 <h5>WE ARE OFFERING THESE COURSES FOR OUR STUDENTS</h5>
             </div>
             <div>
-<div class="accordion accordion-flush  " id="accordionFlushExample">
+<div class="accordion accordion-flush mb-5 border " id="accordionFlushExample">
   <div class="accordion-item ">
     <h2 class="accordion-header" id="flush-headingOne">
-      <button class="accordion-button collapsed text-dark fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-       Mathematics
+      <button class="accordion-button collapsed text-dark fw-bold fs-4 d-block text d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Mathematics
       </button>
     </h2>
     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -26,7 +26,7 @@ const Topics = () => {
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingTwo">
-      <button class="accordion-button collapsed text-dark fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+      <button class="accordion-button collapsed text-dark fw-bold fs-4 d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
         History
       </button>
     </h2>
@@ -39,7 +39,7 @@ const Topics = () => {
 
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingThree">
-      <button class="accordion-button collapsed text-dark fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+      <button class="accordion-button collapsed text-dark fw-bold fs-4 d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
         Geography
       </button>
     </h2>
@@ -50,7 +50,7 @@ const Topics = () => {
 
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingFour">
-      <button class="accordion-button collapsed text-dark fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+      <button class="accordion-button collapsed text-dark fw-bold fs-4 d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
        Sociology
       </button>
     </h2>
@@ -61,7 +61,7 @@ const Topics = () => {
 
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingFive">
-      <button class="accordion-button collapsed text-dark fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+      <button class="accordion-button collapsed text-dark fw-bold fs-4 d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
         <span >Biology</span>
       </button>
     </h2>
@@ -73,7 +73,7 @@ const Topics = () => {
 
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingSix">
-      <button class="accordion-button collapsed text-dark fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+      <button class="accordion-button collapsed text-dark fw-bold fs-4 d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
        Chemistry
       </button>
     </h2>

@@ -5,7 +5,7 @@ import Topics from "../Topics/Topics";
 import Instructor from "../Instructor/Instructor";
 import Title from "../Title/Title";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowAltCircleRight, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faArrowAltCircleRight} from '@fortawesome/free-solid-svg-icons'
 import { useHistory } from "react-router";
 
 

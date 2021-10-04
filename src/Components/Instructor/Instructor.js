@@ -2,14 +2,16 @@ import "./Instructor.css"
 import one from '../../Images/teacher/1.jpg'
 import two from '../../Images/teacher/2.jpg'
 import three from '../../Images/teacher/3.jpg'
+import "animate.css"
+
 
 import React from 'react';
 
 const Instructor = () => {
     return (
         <div className="mb-5">
-            <div className="text-center fs-3">
-                <h2 className="text-success fw-bold"> MEET THE TEACHERS</h2>
+            <div className="text-center fs-3 p-5">
+                <h2 className="text-success fw-bold animate__animated animate__flip"> MEET THE TEACHERS</h2>
                 <h5>WE HAVE THE HIGHLY QUALIFIED TEACHERS FOR WORLD CLASS TEACHING</h5>
             </div>
 

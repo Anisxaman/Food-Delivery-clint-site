@@ -29,16 +29,6 @@ const Services = () => {
        
     }, [])
 
-
-// const useClick(){
-//     useEffect(() => {
-//         fetch("./FakeMath.JSON")
-//         .then(res=>res.json())
-//         .then(data=>setMathdata(data))
-       
-//     }, [])
-
-// }
  
 
     useEffect(() => {
@@ -67,13 +57,6 @@ const handler=()=>{
     window.location.reload();
 
 }
-// window.location.reload();
-// const history=useHistory();
-
-// const element=()=>{
-//     history.push("/services");
-// }
-// {/* <button type="button" class="btn btn-secondary"><FontAwesomeIcon icon ={faArrowAltCircleRight}></FontAwesomeIcon></button> */}
 
 
     return (
@@ -97,34 +80,6 @@ const handler=()=>{
 
             </div>
             </div>
-
-
-
-
-            {/* <div>
-            <button type="button" onClick={handler} class="btn btn-secondary"> <Link to={"/services"}> <h1 className="border  fw-bolder text-dark">Mathemitcs Course<button type="button" class="btn btn-secondary"><FontAwesomeIcon icon ={faArrowAltCircleRight}></FontAwesomeIcon></button>
- 
- </h1></Link></button>
- 
-            <div>
-                
-                <div class="row row-cols-1 row-cols-md-4 g-4">
-
-                {
-                    
-                    Mathdata.map(item=><Math
-                    key={item.id}
-                    math={item}
-                    
-                    
-                    
-                    ></Math>)
-                }
-                </div>
-            </div>
-
-
-            </div> */}
 
 <div>
 <h1 className="border p-4 bg-Secondary fw-bolder mt-5 p-5 ">Mathematics Course <FontAwesomeIcon icon ={faArrowAltCircleRight}></FontAwesomeIcon>
