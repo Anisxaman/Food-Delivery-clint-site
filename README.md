@@ -11,10 +11,14 @@
 . added two functional button
 
 ## Live site:
-[site link]: https://my-demy.netlify.app/
+: https://my-demy.netlify.app/
+
+
+
 
 
 [Anishuzzaman][author]
-[author]:https://www.facebook.com/anishuzzaman
+
+[author]: https://www.facebook.com/anishuzzaman
 
 
