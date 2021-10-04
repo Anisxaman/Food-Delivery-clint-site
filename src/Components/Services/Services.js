@@ -5,6 +5,9 @@ import { useState } from "react";
 import { useEffect } from "react";
 import Math from "../Math/Math";
 import Biology from "../biology/Biology";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowAltCircleRight } from "@fortawesome/free-regular-svg-icons";
+
 
 const Services = () => {
 
@@ -42,7 +45,8 @@ console.log(BioData)
     return (
         <div className="bg-info" style={{marginTop:"130px"}}>
             <div>
-                <h1 className="border p-4 fw-bolder">Mathemitcs Course</h1>
+                <h1 className="border p-4 fw-bolder">Mathemitcs Course   <FontAwesomeIcon icon ={faArrowAltCircleRight}></FontAwesomeIcon>
+</h1>
             <div>
                 
                 <div class="row row-cols-1 row-cols-md-4 g-4">
@@ -63,7 +67,8 @@ console.log(BioData)
             </div>
 
             <div>
-                <h1 className="border p-4 bg-Secondary fw-bolder mt-5" style={{backgroundColor:"#0000"}}>Biology Course</h1>
+                <h1 className="border p-4 bg-Secondary fw-bolder mt-5 " style={{backgroundColor:"#0000"}}>Biology Course <FontAwesomeIcon icon ={faArrowAltCircleRight}></FontAwesomeIcon>
+</h1>
                 <div>
                 <div class="row row-cols-1 row-cols-md-4 g-4">
 

@@ -7,7 +7,7 @@ import { faFacebook, faInstagram, faTwitter, faYoutube } from "@fortawesome/free
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer ">
                      <div >
                                 {/* <img src="images/Logo.png" alt="footer-image"> */}
                                 

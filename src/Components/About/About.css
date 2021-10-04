@@ -1,0 +1,10 @@
+.about{
+    background-image: url("../../Images/6.jpg"); 
+    background-size: cover;
+
+    height: 800px;
+}
+
+.author img{
+    border-radius: 50%;
+}
