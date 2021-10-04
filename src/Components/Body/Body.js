@@ -6,22 +6,21 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const Body = (props) => {
     const {img,name,Instructor,rating,price}=props.item;
-    
-
+//-------------------------------------------- display card-----------------------------------
     return (
         <>
 
 
 
-        <div className="col-lg-4 ">
+        <div className="col-lg-4 col-12 ">
         <div class="card mb-3  " style={{maxWidth: "540px",height:"380px",borderRadius:"30px"}}>
             <div class="row g-0  hover rounded-3">
                 
-                <div class="col-md-5">
+                <div class="col-md-5 col-12">
                 <img src={img} style={{height:"380px"}} className="img-fluid rounded-start" alt="not found"/>
                     
                 </div>
-                <div class="col-md-7 ">
+                <div class="col-md-7 col-12 ">
                 <div class="card-body">
                     <h3 class="card-title fw-bolder">{name}</h3>
                     <h5 class="card-title fw-bolder instuctor">{Instructor}</h5>
@@ -40,8 +39,7 @@ const Body = (props) => {
                    <Rating className='iccon'
                        initialRating={rating}  
                        emptySymbol="far fa-star"
-                       // emptySymbol="fas fa-star-o fa-2x"
-                       // fullSymbol="fas fa-star fa-2x"
+                      
                        fullSymbol="fas fa-star"
                         readonly/>
 

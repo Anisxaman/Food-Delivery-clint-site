@@ -8,7 +8,7 @@ import four from "../../Images/author/4.jpg"
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
     return (
@@ -28,6 +28,13 @@ const About = () => {
                 <Link to="/1"><button type="button" class="btn btn-primary me-3">Go</button></Link>
                 <FontAwesomeIcon className="text-danger fs-1" icon={faEnvelope}></FontAwesomeIcon>
            </div>
+           <div>
+           <h5><FontAwesomeIcon className="text-danger fs-6" icon={faPhone}></FontAwesomeIcon>
+                Phone: 0134347894358</h5>
+
+           </div>
+           
+
 
             </div>
          </div>
@@ -55,6 +62,11 @@ const About = () => {
                 <Link to="/1"><button type="button" class="btn btn-primary me-3">Go</button></Link>
                 <FontAwesomeIcon className="text-danger fs-1" icon={faEnvelope}></FontAwesomeIcon>
            </div>
+           <div>
+           <h5><FontAwesomeIcon className="text-danger" icon={faPhone}></FontAwesomeIcon>
+                Phone: 0134347894358</h5>
+
+           </div>
 
             </div>
             <img  src={four} className="card-img-top " alt="..."/>
@@ -77,6 +89,11 @@ const About = () => {
                 <div className="d-flex align-items-center">
                 <Link to="/1"><button type="button" class="btn btn-primary me-3">Go</button></Link>
                 <FontAwesomeIcon className="text-danger fs-1" icon={faEnvelope}></FontAwesomeIcon>
+           </div>
+           <div>
+           <h5><FontAwesomeIcon className="text-danger" icon={faPhone}></FontAwesomeIcon>
+                Phone: 0134347894358</h5>
+
            </div>
             </div>
            </div>
@@ -102,6 +119,11 @@ const About = () => {
 <div className="d-flex align-items-center">
                 <Link to="/1"><button type="button" class="btn btn-primary me-3">Go</button></Link>
                 <FontAwesomeIcon className="text-danger fs-1" icon={faEnvelope}></FontAwesomeIcon>
+           </div>
+           <div>
+           <h5><FontAwesomeIcon className="text-danger" icon={faPhone}></FontAwesomeIcon>
+                Phone: 0134347894358</h5>
+
            </div>
 </div>
 <img  src={three} className="card-img-top" alt="..."/>

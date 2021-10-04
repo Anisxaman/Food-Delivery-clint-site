@@ -12,26 +12,7 @@ const Instructor = () => {
                 <h2 className="text-success fw-bold"> MEET THE TEACHERS</h2>
                 <h5>WE HAVE THE HIGHLY QUALIFIED TEACHERS FOR WORLD CLASS TEACHING</h5>
             </div>
-{/* 
-            <div className="ms-5">
-                <div >
-                <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
-            <div class="carousel-inner" style={{marginLeft:"350px",borderRadius:"20px"}}>
-                <div class="carousel-item active w-50">
-                <img  height="600px" src={one} class="d-block w-100" alt="..."/>
-                </div>
-                <div class="carousel-item w-50 ">
-                <img  height="600px"  src={two} class="d-block w-100" alt="..."/>
-                </div>
-                <div class="carousel-item w-50 ">
-                <img   height="600px"   src={three} class="d-block w-100" alt="..."/>
-                </div>
-            </div>
-            </div>
-                </div>
-      
 
-            </div> */}
 
             <div>
             <div id="carouselExampleCaptions"  class="carousel slide" data-bs-ride="carousel">
@@ -43,21 +24,21 @@ const Instructor = () => {
   <div class="carousel-inner">
     <div class="carousel-item active" style={{marginLeft:"450px",borderRadius:"20px"}}>
       <img  height="600px"  src={one} class="d-block w-50" alt="..."/>
-      <div class="carousel-caption d-none d-md-block text-danger fw-bold fs-4" style={{marginRight:"850px"}}>
+      <div class="carousel-caption d-none d-md-block text-white fw-bold fs-2" style={{marginRight:"850px"}}>
         <h5>John Chena</h5>
         <p>Math</p>
       </div>
     </div>
     <div class="carousel-item" style={{marginLeft:"450px",borderRadius:"20px"}}>
       <img  height="600px"  src={two} class="d-block w-50" alt="..."/>
-      <div class="carousel-caption d-none d-md-block text-danger fw-bold fs-4 " style={{marginRight:"850px"}}>
+      <div class="carousel-caption d-none d-md-block text-danger fw-bold fs-2 " style={{marginRight:"850px"}}>
         <h5>Showen Mickle</h5>
         <p>Bengali</p>
       </div>
     </div>
     <div class="carousel-item" style={{marginLeft:"450px",borderRadius:"20px"}}>
       <img  height="600px"  src={three} class="d-block w-50" alt="..."/>
-      <div class="carousel-caption d-none d-md-block text-danger fs-4 fw-bold " style={{marginRight:"850px"}}>
+      <div class="carousel-caption d-none d-md-block text-danger fs-2 fw-bold " style={{marginRight:"850px"}}>
         <h5>Triple H</h5>
         <p>Biology</p>
       </div>

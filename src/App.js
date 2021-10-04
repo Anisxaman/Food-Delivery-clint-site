@@ -18,7 +18,6 @@ function App() {
     <div className="">
       
           <BrowserRouter>
-              {/* <Body></Body> */}
               <Header></Header>
 
           <Switch>

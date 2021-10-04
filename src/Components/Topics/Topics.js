@@ -9,7 +9,7 @@ const Topics = () => {
         <div className="bg-info">
             <div className="text-center p-5">
 
-                <h1>COURSES WE OFFER</h1>
+                <h1 className="text">COURSES WE OFFER</h1>
                 <h5>WE ARE OFFERING THESE COURSES FOR OUR STUDENTS</h5>
             </div>
             <div>

@@ -12,7 +12,7 @@ const Title = () => {
     const handleClick = (link) => {
         history.push(link);
     }
-
+// ---------------------------------------header title-------------------------------------------
     return (
         <>
         <div className="mb-5 mt-5" >

@@ -17,10 +17,10 @@ const Footer = () => {
                                 <a href="#"><i class="fab fa-2x fa-instagram"></i></a>
                                 <a href="#"><i class="fab fa-2x fa-twitter"></i></a> */}
 
-                                <Link><FontAwesomeIcon className="icon" icon={faFacebook}></FontAwesomeIcon></Link>
-                                <Link><FontAwesomeIcon className="icon" icon={faYoutube}></FontAwesomeIcon></Link>
-                                <Link><FontAwesomeIcon className="icon" icon={faInstagram}></FontAwesomeIcon></Link>
-                                <Link><FontAwesomeIcon className="icon" icon={faTwitter}></FontAwesomeIcon></Link>
+                                <Link to="https://www.facebook.com/anishuzzaman"><FontAwesomeIcon  className="icon" icon={faFacebook}></FontAwesomeIcon></Link>
+                                <Link to="https://www.facebook.com/anishuzzaman"><FontAwesomeIcon className="icon" icon={faYoutube}></FontAwesomeIcon></Link>
+                                <Link to="https://www.facebook.com/anishuzzaman"><FontAwesomeIcon className="icon" icon={faInstagram}></FontAwesomeIcon></Link>
+                                <a href="https://www.facebook.com/anishuzzaman"><FontAwesomeIcon className="icon" icon={faTwitter}></FontAwesomeIcon></a>
                     
                                 <p className='text-white'>copyright &copy; 2021 Anishuzzaman</p>
                                 

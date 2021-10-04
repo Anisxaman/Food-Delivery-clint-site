@@ -19,6 +19,8 @@ const Home = () => {
     }, [])
 
 console.log(data);
+    //----------------------- main home component where contain three child component-------------------
+
     return (
         <>
            <Title></Title>
